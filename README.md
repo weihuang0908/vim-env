@@ -5,7 +5,11 @@ cp vimrc ~/.vimrc
 cp vim ~/.vim
 ```
 ## vimrc
+常用配置，包括愉快地使用退格键、支持鼠标、显示行号、状态栏标尺、搜索结果高亮、tab对应4个空格、编码方式utf8、文件自动编码检测仿乱码
+
 自动检测终端环境还是GUI环境,终端环境使用solarized配色方案，GUI环境使用solarized配色方案
+
+插件常用快捷键的设置
 
 ## 插件
 ### NerdTree
@@ -34,7 +38,7 @@ r 刷新选中的目录
 成对标签跳转: 按%键会自动跳转到匹配的()[]{}<>等符号
 编辑html和xml的时候，可以从<div>直接跳到</div>
 
-### NereCommenter
+### NERDCommenter
 批量注释
 ```
 <Leader>cc  加注释 (默认的<Leader>是`\`)
