@@ -13,6 +13,12 @@ set cinoptions={0,1s,t0,n-2,p2s,(03s,=.5s,>1s,=1s,:1s
 "indent允许退格键删自动缩进，start 允许删除进入输入模式之前就存在的字符，eol允许删换行符两行合并
 set backspace=indent,start,eol "让退格键更顺畅
 
+"""
+" 超过80列限制，高亮提示
+"""
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
+
 """"""""""""""""""
 "color scheme
 " use solarized in term, and molokai in GUI
